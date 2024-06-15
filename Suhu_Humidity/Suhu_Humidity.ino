@@ -12,10 +12,10 @@ const char* ssid = "Aqilla";
 const char* password = "07122017";
 
 // Your server URL
-const char* serverName = "http://192.168.1.4:2000/sensor"; // Replace with your Flask server IP
+const char* serverName = "http://192.168.1.6:2000/sensor"; // Replace with your Flask server IP
 
 // Create an instance of the DHT11 class.
-DHT dht(15, DHT11); // Pin 2 and DHT11
+DHT dht(5, DHT11); // Pin 2 and DHT11
 
 void setup() {
     // Initialize serial communication
